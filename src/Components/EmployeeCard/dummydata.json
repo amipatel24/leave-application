@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Nayan Thakor",
+    "reporting_person": 2,
+    "leaves": [
+      {
+        "id": 1,
+        "reason": "Go to Home.",
+        "start_date": "7-1-2023",
+        "end_date": "17-1-2023",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "reason": "Need to attend marriage of sister.",
+        "start_date": "24-1-2023",
+        "end_date": "26-1-2023",
+        "status": 2
+      },
+      {
+        "id": 3,
+        "reason": "Need to attend cusions  marraige.",
+        "start_date": "28-1-2023",
+        "end_date": "29-1-2023",
+        "status": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Amisha Patel",
+    "reporting_person": 1,
+    "leaves": [
+      {
+        "id": 1,
+        "reason": "go to family function.",
+        "start_date": "6-2-2023",
+        "end_date": "9-2-2023",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "reason": "i want to leave for exam.",
+        "start_date": "16-2-2023",
+        "end_date": "20-2-2023",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "reason": "go to family function.",
+        "start_date": "26-2-2023",
+        "end_date": "28-2-2023",
+        "status": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sarthak Sarvaiya",
+    "reporting_person": 1,
+    "leaves": [
+      {
+        "id": 1,
+        "reason": "Medical Emargency.",
+        "start_date": "2-3-2023",
+        "end_date": "7-3-2023",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "reason": "i want to leave for goining to hospital.",
+        "start_date": "12-3-2023",
+        "end_date": "17-3-2023",
+        "status": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sonal Rathod",
+    "reporting_person": 2,
+    "leaves": [
+      {
+        "id": 1,
+        "reason": "Going to Family Function.",
+        "start_date": "27-12-2022",
+        "end_date": "29-12-2022",
+        "status": 3
+      }
+    ]
+  }
+]

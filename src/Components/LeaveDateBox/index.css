@@ -1,0 +1,53 @@
+.Date-picker {
+  display: flex;
+}
+.Date-picker .react-datepicker__month {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 921px;
+}
+.Date-picker .react-datepicker__day-names {
+  display: none;
+}
+.react-datepicker__navigation--previous {
+  z-index: 1;
+}
+.react-datepicker__day-names,
+.react-datepicker__week {
+  white-space: nowrap;
+}
+
+.isLeaveApplied {
+  background-color: rgb(253, 253, 47);
+  font-weight: 600;
+}
+.ApprovedLeave {
+  background-color: rgb(2, 150, 2);
+  color: white !important;
+  font-weight: 600;
+}
+.Rejected {
+  background-color: rgb(235, 27, 27);
+  color: white !important;
+  font-weight: 600;
+}
+.Blue {
+  background-color: rgb(23, 23, 145);
+  color: white !important;
+  font-weight: 600;
+}
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+@media only screen and (max-width: 1060px) {
+  .Date-picker .react-datepicker__month {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
+}

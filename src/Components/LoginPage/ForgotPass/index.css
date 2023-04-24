@@ -1,0 +1,57 @@
+.FogotPasswrapper .FogotPassPopUp {
+  background: var(--grey);
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+  width: 470px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+}
+.FogotPasswrapper .FogotPassPopUp .input label {
+  font-weight: 600;
+}
+.FogotPasswrapper .FogotPassPopUp .input input {
+  padding: 8px;
+  border: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 15px;
+}
+.FogotPasswrapper .FogotPassPopUp .input {
+  padding: 5px 20px 0px 20px;
+}
+.FogotPasswrapper .FogotPassPopUp .submitbtn button {
+  background-color: var(--dark);
+  border: 1px solid var(--dark);
+  margin-top: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 600;
+}
+.FogotPasswrapper .FogotPassPopUp .submitbtn {
+  padding: 5px 20px 0px 20px;
+}
+.FogotPasswrapper {
+  margin: 20px auto 20px auto;
+}
+.FogotPasswrapper p {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Responsive css */
+@media screen and (max-width: 580px) {
+  .FogotPasswrapper .FogotPassPopUp {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .FogotPasswrapper .FogotPassPopUp {
+    width: auto;
+  }
+}

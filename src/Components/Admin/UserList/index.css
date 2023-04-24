@@ -1,0 +1,108 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  margin: 20px 0px 20px 0px;
+  flex-direction: column;
+}
+
+.wrapper p {
+  font-size: 20px;
+  font-weight: 600;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 0px;
+  color: var(--dark);
+  align-items: center;
+}
+
+.usertable .editbtn {
+  background-color: var(--lightgreen);
+  color: var(--white);
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--lightgreen);
+  font-weight: 700;
+}
+
+.usertable {
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgb(188, 188, 188);
+  margin: 20px auto 0px auto;
+}
+
+.usertable .Table-header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 10px 20px;
+  border-bottom: 2px solid var(--dark);
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+tbody:nth-child(even) {
+  background-color: var(--grey);
+}
+
+.AddBtn button {
+  color: white;
+  padding: 5px 10px;
+  background-color: var(--lightgreen);
+  border: 1px solid var(--lightgreen);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Responsive css */
+@media screen and (max-width: 894px) {
+  .usertable table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .usertable table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  .usertable table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: right;
+  }
+
+  .usertable table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+
+  .usertable table td:last-child {
+    border-bottom: 0;
+  }
+  .usertable {
+    margin: 20px 80px 0px 80px;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .usertable {
+    margin: 20px auto 0px auto;
+  }
+  .usertable .Table-header {
+    gap: 20px;
+  }
+}
